@@ -11,11 +11,11 @@
 [![Lightning](https://img.shields.io/badge/Lightning-2.6.6-792EE5?style=for-the-badge&logo=lightning&logoColor=white)](https://lightning.ai/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-[![Dataset](https://img.shields.io/badge/Dataset-KAMP_전자부품(배터리팩)-0A7CBF?style=flat-square)](#)
+[![Dataset](https://img.shields.io/badge/Dataset-KAMP%20전자부품%28배터리팩%29-0A7CBF?style=flat-square)](#)
 [![Cpk](https://img.shields.io/badge/Cpk-6.88-success?style=flat-square)](#)
 [![Ppk](https://img.shields.io/badge/Ppk-0.81-critical?style=flat-square)](#)
 [![val_loss](https://img.shields.io/badge/val__loss-139.10→1.24-blueviolet?style=flat-square)](#)
-[![Detection](https://img.shields.io/badge/탐지_오류-0건_/_4파일-success?style=flat-square)](#)
+[![Detection](https://img.shields.io/badge/탐지오류-0건%20%284파일%29-success?style=flat-square)](#)
 
 </div>
 
@@ -29,16 +29,12 @@
 | 📓 [`02_TFT모델.ipynb`](02_TFT%EB%AA%A8%EB%8D%B8.ipynb) | 그 이상을 **어떻게 탐지할 것인가** |
 | 📄 [`분석보고서.md`](%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.md) | 두 노트북의 결과를 하나로 묶은 보고서 |
 
-<div align="center">
-
 ```mermaid
 flowchart LR
     A["📓 01 공정능력분석<br/>39주기 · 변수종속 · 7개월 열화"] -->|"발견이 설정이 된다"| B["📓 02 TFT모델<br/>인코더 78 · 공변량 PageNo"]
     A -->|"예지 · 월 단위"| C["📄 분석보고서<br/>4등급 판정 체계"]
     B -->|"탐지 · 초·분 단위"| C
 ```
-
-</div>
 
 ### 📑 목차
 
