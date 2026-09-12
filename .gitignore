@@ -1,0 +1,75 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── 가상환경 ─────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+profile_default/
+ipython_config.py
+
+# ── 모델 체크포인트 / 학습 로그 (용량 큼, 재현 가능) ─────
+ckpt_gap/
+ckpt_tft_*/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+lightning_logs/
+tb_logs/
+runs/
+mlruns/
+wandb/
+optuna*.db
+
+# ── 데이터셋 / 가이드북 (KAMP 원본, 별도 배포) ──────────
+Dataset_전자부품(배터리팩) 예지보전 AI 데이터셋/
+Guidebook_전자부품(배터리팩) 예지보전 AI 데이터셋.pdf
+*.aasx
+
+# ── 분석 산출물 ──────────────────────────────────────────
+out/
+outputs/
+figures/
+*.parquet
+
+# ── 테스트 / 캐시 ────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_convert/
+.cache/
+
+# ── 환경변수 / 비밀값 ────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ── OS / 에디터 ──────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
